@@ -1,0 +1,14 @@
+development:
+    adapter: mysql2
+    database: namo_ritik
+    encoding: utf8
+    username: root
+    password: ritikroot
+    host: localhost
+# test:
+#   <<: *default
+#   database: db/test.sqlite3
+
+# production:
+#   <<: *default
+#   database: db/production.sqlite3
